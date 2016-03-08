@@ -7,7 +7,7 @@
             <name>Computer Graphics</name>
             <code>COMP4560</code>
             <instructor>Brenda Fine</instructor>
-            <date>Monday</date>
+            <day>Monday</day>
             <location>SE12-320</location>
             <type>Lab</type>
         </class>    
@@ -15,7 +15,7 @@
             <name>Business Law</name>
             <code>BLAW3600</code>
             <instructor>Catherine Ryan</instructor>
-            <date>Friday</date>
+            <day>Friday</day>
             <location>SW5-1849</location>
             <type>Lecture</type>
         </class>

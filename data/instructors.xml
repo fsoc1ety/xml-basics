@@ -4,7 +4,7 @@
 Set 4G schedule by instructor
 -->
 <instructors>
-    <insctructor code="Brenda Fine">
+    <instructors code="Brenda Fine">
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
@@ -29,9 +29,9 @@ Set 4G schedule by instructor
             <location>SW3-1750</location>
             <type>Lecture</type>
         </class>
-    </insctructor>
+    </instructors>
 
-    <insctructor code="Mirela Gutica">
+    <instructors code="Mirela Gutica">
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
@@ -56,9 +56,9 @@ Set 4G schedule by instructor
             <location>SW3-1710</location>
             <type>Lecture</type>
         </class>
-    </insctructor>
+    </instructors>
 
-    <insctructor code="Mathew Linder">
+    <instructors code="Mathew Linder">
     <class>
         <name>Operating Systems</name>
         <code>COMP4735</code>
@@ -67,9 +67,9 @@ Set 4G schedule by instructor
         <location>SW3-1710</location>
         <type>Lab</type>
     </class>
-    </insctructor>
+    </instructors>
 
-    <insctructor code="James Parry">
+    <instructors code="James Parry">
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
@@ -86,9 +86,9 @@ Set 4G schedule by instructor
             <location>SW5-1840</location>
             <type>Lecture</type>
         </class>
-    </insctructor>
+    </instructors>
 
-    <insctructor code="Tejinder Randhawa">
+    <instructors code="Tejinder Randhawa">
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
@@ -121,9 +121,9 @@ Set 4G schedule by instructor
             <location>SE12-319</location>
             <type>Lab</type>
         </class>
-    </insctructor>
+    </instructors>
 
-    <insctructor code="Catherine Ryan">
+    <instructors code="Catherine Ryan">
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
@@ -140,5 +140,5 @@ Set 4G schedule by instructor
             <location>SW5-1840</location>
             <type>Lecture</type>
         </class>
-    </insctructor>
+    </instructors>
 </instructors>

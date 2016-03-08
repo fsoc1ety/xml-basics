@@ -20,11 +20,8 @@
 -->
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT instructors (insctructor)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT insctructor (class)*>
-<!ATTLIST insctructor
+<!ELEMENT instructors (instructors|class)*>
+<!ATTLIST instructors
     code CDATA #IMPLIED
   >
 
