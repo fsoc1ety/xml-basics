@@ -7,8 +7,7 @@
 <!--Instructors-->
 <!ELEMENT instructors (instructor*)>
 <!ELEMENT instructor (class*)>
-<!ELEMENT instructor (days*)>
-<!ATTLIST instructor type ("Tejinder Randhawa"|"James Parry"|"Catherine Ryan"|"Mathew Linder"|"Mirela Gutica"|"Brenda Fine") #REQUIRED>
+<!ATTLIST instructor type (Tejinder-Randhawa|James-Parry|Catherine-Ryan|Mathew-Linder|Mirela-Gutica|Brenda-Fine) #REQUIRED>
 
 
 <!--Periods-->
@@ -25,19 +24,19 @@
 <!ELEMENT class (
         name,
         code,
-        day?,
+        day1?,
         time?,
         location,
         type,
-        instructor?
+        instructor1?
         )>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT code (#PCDATA)>
-<!ELEMENT day (#PCDATA)>
+<!ELEMENT day1 (#PCDATA)>
 <!ELEMENT time (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT type (#PCDATA)>
-<!ELEMENT instructor (#PCDATA)>
+<!ELEMENT instructor1 (#PCDATA)>
 
 
 
