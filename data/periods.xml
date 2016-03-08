@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<!DOCTYPE periods SYSTEM "periods.dtd">
+<!DOCTYPE periods SYSTEM "timetable.dtd">
 
 <periods>
     <period type="830">
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <instructor>Brenda Fine</instructor>
-            <day>Monday</day>
+            <instructor1>Brenda Fine</instructor1>
+            <day1>Monday</day1>
             <location>SE12-320</location>
             <type>Lab</type>
         </class>    
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
-            <instructor>Catherine Ryan</instructor>
-            <day>Friday</day>
+            <instructor1>Catherine Ryan</instructor1>
+            <day1>Friday</day1>
             <location>SW5-1849</location>
             <type>Lecture</type>
         </class>
@@ -25,16 +25,16 @@
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
-            <instructor>Tejinder Randhawa</instructor>
-            <day>Wednesday</day>
+            <instructor1>Tejinder Randhawa</instructor1>
+            <day1>Wednesday</day1>
             <location>SE12-319</location>
             <type>Lecture</type>
         </class>
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
-            <instructor>Catherine Ryan</instructor>
-            <day>Thursday</day>
+            <instructor1>Catherine Ryan</instructor1>
+            <day1>Thursday</day1>
             <location>SW3-2620</location>
             <type>Lab</type>
         </class>
@@ -44,8 +44,8 @@
         <class>
             <name>Client Server 2</name>
             <code>COMP4941</code>
-            <instructor>Tejinder Randhawa</instructor>
-            <day>Wednesday</day>
+            <instructor1>Tejinder Randhawa</instructor1>
+            <day1>Wednesday</day1>
             <location>SE12-319</location>
             <type>Lab</type>
         </class>
@@ -55,24 +55,24 @@
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mirela Gutica</instructor>
-            <day>Monday</day>
+            <instructor1>Mirela Gutica</instructor1>
+            <day1>Monday</day1>
             <location>SW1-1205</location>
             <type>Lecture</type>
         </class>
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <instructor>Brenda Fine</instructor>
-            <day>Tuesday</day>
+            <instructor1>Brenda Fine</instructor1>
+            <day1>Tuesday</day1>
             <location>SW5-1850</location>
             <type>Lecture</type>
         </class>
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mirela Gutica</instructor>
-            <day>Thursday</day>
+            <instructor1>Mirela Gutica</instructor1>
+            <day1>Thursday</day1>
             <location>SW3-1710</location>
             <type>Lecture</type>
         </class>
@@ -82,16 +82,16 @@
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
-            <instructor>James Parry</instructor>
-            <day>Tuesday</day>
+            <instructor1>James Parry</instructor1>
+            <day1>Tuesday</day1>
             <location>SE12-320</location>
             <type>Lab</type>
         </class>
          <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <instructor>Brenda Fine</instructor>
-            <day>Friday</day>
+            <instructor1>Brenda Fine</instructor1>
+            <day1>Friday</day1>
             <location>SW3-1750</location>
             <type>Lecture</type>
         </class>
@@ -101,24 +101,24 @@
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mirela Gutica</instructor>
-            <day>Wednesday</day>
+            <instructor1>Mirela Gutica</instructor1>
+            <day1>Wednesday</day1>
             <location>SW1-1205</location>
             <type>Lecture</type>
         </class>
          <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
-            <instructor>Tejinder Randhawa</instructor>
-            <day>Thursday</day>
+            <instructor1>Tejinder Randhawa</instructor1>
+            <day1>Thursday</day1>
             <location>SE12-319</location>
             <type>Lab</type>
         </class>
         <class>
             <name>Client Server 2</name>
             <code>COMP4941</code>
-            <instructor>Tejinder Randhawa</instructor>
-            <day>Friday</day>
+            <instructor1>Tejinder Randhawa</instructor1>
+            <day1>Friday</day1>
             <location>SE12-319</location>
             <type>Lab</type>
         </class>
@@ -128,8 +128,8 @@
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
-            <instructor>James Parry</instructor>
-            <day>Tuesday</day>
+            <instructor1>James Parry</instructor1>
+            <day1>Tuesday</day1>
             <location>SW5-1840</location>
             <type>Lecture</type>
         </class>
@@ -139,8 +139,8 @@
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mathew Linder</instructor>
-            <day>Monday</day>
+            <instructor1>Mathew Linder</instructor1>
+            <day1>Monday</day1>
             <location>SW3-1710</location>
             <type>Lab</type>
         </class>

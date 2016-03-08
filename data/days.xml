@@ -5,11 +5,11 @@ Set 4G schedule by day
 -->
 
 <days>
-    <day type="monday">
+    <day type="Monday">
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <instructor>Brenda Fine</instructor>
+            <instructor1>Brenda Fine</instructor1>
             <time>8:30 - 10:20</time>
             <location>SE12-320</location>
             <type>Lab</type>
@@ -17,7 +17,7 @@ Set 4G schedule by day
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mirela Gutica</instructor>
+            <instructor1>Mirela Gutica</instructor1>
             <time>11:30 - 12:20</time>
             <location>SW1-1205</location>
             <type>Lecture</type>
@@ -25,18 +25,18 @@ Set 4G schedule by day
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mathew Linder</instructor>
+            <instructor1>Mathew Linder</instructor1>
             <time>3:30 - 5:20</time>
             <location>SW3-1710</location>
             <type>Lab</type>
         </class>
     </day>
 
-    <day type="tuesday">
+    <day type="Tuesday">
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <instructor>Brenda Fine</instructor>
+            <instructor1>Brenda Fine</instructor1>
             <time>11:30 - 12:20</time>
             <location>SW5-1850</location>
             <type>Lecture</type>
@@ -44,7 +44,7 @@ Set 4G schedule by day
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
-            <instructor>James Parry</instructor>
+            <instructor1>James Parry</instructor1>
             <time>12:30 - 2:20</time>
             <location>SE12-320</location>
             <type>Lab</type>
@@ -52,18 +52,18 @@ Set 4G schedule by day
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
-            <instructor>James Parry</instructor>
+            <instructor1>James Parry</instructor1>
             <time>12:30 - 2:20</time>
             <location>SW5-1840</location>
             <type>Lecture</type>
         </class>
     </day>
 
-    <day type="wednesday">
+    <day type="Wednesday">
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
-            <instructor>Tejinder Randhawa</instructor>
+            <instructor1>Tejinder Randhawa</instructor1>
             <time>9:30 - 10:20</time>
             <location>SE12-319</location>
             <type>Lecture</type>
@@ -71,7 +71,7 @@ Set 4G schedule by day
         <class>
             <name>Client Server 2</name>
             <code>COMP4941</code>
-            <instructor>Tejinder Randhawa</instructor>
+            <instructor1>Tejinder Randhawa</instructor1>
             <time>10:30 - 11:20</time>
             <location>SE12-319</location>
             <type>Lab</type>
@@ -79,18 +79,18 @@ Set 4G schedule by day
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mirela Gutica</instructor>
+            <instructor1>Mirela Gutica</instructor1>
             <time>1:30 - 2:20</time>
             <location>SW1-1205</location>
             <type>Lecture</type>
         </class>
     </day>
 
-    <day type="thursday">
+    <day type="Thursday">
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
-            <instructor>Catherine Ryan</instructor>
+            <instructor1>Catherine Ryan</instructor1>
             <time>9:30 - 11:20</time>
             <location>SW3-2620</location>
             <type>Lab</type>
@@ -98,7 +98,7 @@ Set 4G schedule by day
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <instructor>Mirela Gutica</instructor>
+            <instructor1>Mirela Gutica</instructor1>
             <time>11:30 - 12:20</time>
             <location>SW3-1710</location>
             <type>Lecture</type>
@@ -106,18 +106,18 @@ Set 4G schedule by day
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
-            <instructor>Tejinder Randhawa</instructor>
+            <instructor1>Tejinder Randhawa</instructor1>
             <time>1:30 - 5:20</time>
             <location>SE12-319</location>
             <type>Lab</type>
         </class>
     </day>
 
-    <day type="friday">
+    <day type="Friday">
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
-            <instructor>Catherine Ryan</instructor>
+            <instructor1>Catherine Ryan</instructor1>
             <time>8:30 - 10:20</time>
             <location>SW5-1840</location>
             <type>Lecture</type>
@@ -125,7 +125,7 @@ Set 4G schedule by day
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <instructor>Brenda Fine</instructor>
+            <instructor1>Brenda Fine</instructor1>
             <time>12:30 - 1:20</time>
             <location>SW3-1750</location>
             <type>Lecture</type>
@@ -133,7 +133,7 @@ Set 4G schedule by day
         <class>
             <name>Client Server 2</name>
             <code>COMP4941</code>
-            <instructor>Tejinder Randhawa</instructor>
+            <instructor1>Tejinder Randhawa</instructor1>
             <time>1:30 - 5:20</time>
             <location>SE12-319</location>
             <type>Lab</type>

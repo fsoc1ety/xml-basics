@@ -8,7 +8,7 @@ Set 4G schedule by instructor
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <day>Monday</day>
+            <day1>Monday</day1>
             <time>8:30 - 10:20</time>
             <location>SE12-320</location>
             <type>Lab</type>
@@ -16,7 +16,7 @@ Set 4G schedule by instructor
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <day>Tuesday</day>
+            <day1>Tuesday</day1>
             <time>11:30 - 12:20</time>
             <location>SW5-1850</location>
             <type>Lecture</type>
@@ -24,7 +24,7 @@ Set 4G schedule by instructor
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
-            <day>Friday</day>
+            <day1>Friday</day1>
             <time>12:30 - 1:20</time>
             <location>SW3-1750</location>
             <type>Lecture</type>
@@ -35,7 +35,7 @@ Set 4G schedule by instructor
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <day>Monday</day>
+            <day1>Monday</day1>
             <time>11:30 - 12:20</time>
             <location>SW1-1205</location>
             <type>Lecture</type>
@@ -43,7 +43,7 @@ Set 4G schedule by instructor
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <day>Wednesday</day>
+            <day1>Wednesday</day1>
             <time>1:30 - 2:20</time>
             <location>SW1-1205</location>
             <type>Lecture</type>
@@ -51,7 +51,7 @@ Set 4G schedule by instructor
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
-            <day>Thursday</day>
+            <day1>Thursday</day1>
             <time>11:30 - 12:20</time>
             <location>SW3-1710</location>
             <type>Lecture</type>
@@ -62,7 +62,7 @@ Set 4G schedule by instructor
     <class>
         <name>Operating Systems</name>
         <code>COMP4735</code>
-        <day>Monday</day>
+        <day1>Monday</day1>
         <time>3:30 - 5:20</time>
         <location>SW3-1710</location>
         <type>Lab</type>
@@ -73,7 +73,7 @@ Set 4G schedule by instructor
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
-            <day>Tuesday</day>
+            <day1>Tuesday</day1>
             <time>12:30 - 2:20</time>
             <location>SE12-320</location>
             <type>Lab</type>
@@ -81,7 +81,7 @@ Set 4G schedule by instructor
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
-            <day>Tuesday</day>
+            <day1>Tuesday</day1>
             <time>12:30 - 2:20</time>
             <location>SW5-1840</location>
             <type>Lecture</type>
@@ -92,7 +92,7 @@ Set 4G schedule by instructor
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
-            <day>Wednesday</day>
+            <day1>Wednesday</day1>
             <time>9:30 - 10:20</time>
             <location>SE12-319</location>
             <type>Lecture</type>
@@ -100,7 +100,7 @@ Set 4G schedule by instructor
         <class>
             <name>Client Server 2</name>
             <code>COMP4941</code>
-            <day>Wednesday</day>
+            <day1>Wednesday</day1>
             <time>10:30 - 11:20</time>
             <location>SE12-319</location>
             <type>Lab</type>
@@ -108,7 +108,7 @@ Set 4G schedule by instructor
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
-            <day>Thursday</day>
+            <day1>Thursday</day1>
             <time>1:30 - 5:20</time>
             <location>SE12-319</location>
             <type>Lab</type>
@@ -116,7 +116,7 @@ Set 4G schedule by instructor
         <class>
             <name>Client Server 2</name>
             <code>COMP4941</code>
-            <day>Friday</day>
+            <day1>Friday</day1>
             <time>1:30 - 5:20</time>
             <location>SE12-319</location>
             <type>Lab</type>
@@ -127,7 +127,7 @@ Set 4G schedule by instructor
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
-            <day>Thursday</day>
+            <day1>Thursday</day1>
             <time>9:30 - 11:20</time>
             <location>SW3-2620</location>
             <type>Lab</type>
@@ -135,7 +135,7 @@ Set 4G schedule by instructor
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
-            <day>Friday</day>
+            <day1>Friday</day1>
             <time>8:30 - 10:20</time>
             <location>SW5-1840</location>
             <type>Lecture</type>
