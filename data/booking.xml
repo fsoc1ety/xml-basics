@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE booking SYSTEM "timetable.dtd" [
+    <!ENTITY days           SYSTEM "days.xml">
+    <!ENTITY periods        SYSTEM "periods.xml">
+    <!ENTITY instructors    SYSTEM "instructors.xml">
+]>
+<booking set="4G" option="Client Server" term="Winter 2016">
+    &days;
+    &periods;
+    &instructors;
+</booking>
