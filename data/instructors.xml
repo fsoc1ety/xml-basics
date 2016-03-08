@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE instructors SYSTEM "timetable.dtd">
 <!--
 Set 4G schedule by instructor
 -->
 <instructors>
-    <instructors code="Brenda Fine">
+    <instructor type="Brenda Fine">
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
@@ -29,9 +29,9 @@ Set 4G schedule by instructor
             <location>SW3-1750</location>
             <type>Lecture</type>
         </class>
-    </instructors>
+    </instructor>
 
-    <instructors code="Mirela Gutica">
+    <instructor type="Mirela Gutica">
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
@@ -56,9 +56,9 @@ Set 4G schedule by instructor
             <location>SW3-1710</location>
             <type>Lecture</type>
         </class>
-    </instructors>
+    </instructor>
 
-    <instructors code="Mathew Linder">
+    <instructor type="Mathew Linder">
     <class>
         <name>Operating Systems</name>
         <code>COMP4735</code>
@@ -67,9 +67,9 @@ Set 4G schedule by instructor
         <location>SW3-1710</location>
         <type>Lab</type>
     </class>
-    </instructors>
+    </instructor>
 
-    <instructors code="James Parry">
+    <instructor type="James Parry">
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
@@ -86,9 +86,9 @@ Set 4G schedule by instructor
             <location>SW5-1840</location>
             <type>Lecture</type>
         </class>
-    </instructors>
+    </instructor>
 
-    <instructors code="Tejinder Randhawa">
+    <instructor type="Tejinder Randhawa">
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
@@ -121,9 +121,9 @@ Set 4G schedule by instructor
             <location>SE12-319</location>
             <type>Lab</type>
         </class>
-    </instructors>
+    </instructor>
 
-    <instructors code="Catherine Ryan">
+    <instructor type="Catherine Ryan">
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
@@ -140,5 +140,5 @@ Set 4G schedule by instructor
             <location>SW5-1840</location>
             <type>Lecture</type>
         </class>
-    </instructors>
+    </instructor>
 </instructors>
