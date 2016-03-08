@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Set 4G schedule by day
+-->
+
+<days>
+    <day type="monday">
+        <class>
+            <name>Computer Graphics</name>
+            <code>COMP4560</code>
+            <instructor>Brenda Fine</instructor>
+            <time>8:30 - 10:20</time>
+            <location>SE12-320</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <instructor>Mirela Gutica</instructor>
+            <time>11:30 - 12:20</time>
+            <location>SW1-1205</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <instructor>Mathew Linder</instructor>
+            <time>3:30 - 5:20</time>
+            <location>SW3-1710</location>
+            <type>Lab</type>
+        </class>
+    </day>
+
+    <day type="tuesday">
+        <class>
+            <name>Computer Graphics</name>
+            <code>COMP4560</code>
+            <instructor>Brenda Fine</instructor>
+            <time>11:30 - 12:20</time>
+            <location>SW5-1850</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Software Development</name>
+            <code>COMP4711</code>
+            <instructor>James Parry</instructor>
+            <time>12:30 - 2:20</time>
+            <location>SE12-320</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Software Development</name>
+            <code>COMP4711</code>
+            <instructor>James Parry</instructor>
+            <time>12:30 - 2:20</time>
+            <location>SW5-1840</location>
+            <type>Lecture</type>
+        </class>
+    </day>
+
+    <day type="wednesday">
+        <class>
+            <name>Client Server Special Topics</name>
+            <code>COMP4945</code>
+            <instructor>Tejinder Randhawa</instructor>
+            <time>9:30 - 10:20</time>
+            <location>SE12-319</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Client Server 2</name>
+            <code>COMP4941</code>
+            <instructor>Tejinder Randhawa</instructor>
+            <time>10:30 - 11:20</time>
+            <location>SE12-319</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <instructor>Mirela Gutica</instructor>
+            <time>1:30 - 2:20</time>
+            <location>SW1-1205</location>
+            <type>Lecture</type>
+        </class>
+    </day>
+
+    <day type="thursday">
+        <class>
+            <name>Business Law</name>
+            <code>BLAW3600</code>
+            <instructor>Catherine Ryan</instructor>
+            <time>9:30 - 11:20</time>
+            <location>SW3-2620</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <instructor>Mirela Gutica</instructor>
+            <time>11:30 - 12:20</time>
+            <location>SW3-1710</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Client Server Special Topics</name>
+            <code>COMP4945</code>
+            <instructor>Tejinder Randhawa</instructor>
+            <time>1:30 - 5:20</time>
+            <location>SE12-319</location>
+            <type>Lab</type>
+        </class>
+    </day>
+
+    <day type="friday">
+        <class>
+            <name>Business Law</name>
+            <code>BLAW3600</code>
+            <instructor>Catherine Ryan</instructor>
+            <time>8:30 - 10:20</time>
+            <location>SW5-1840</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Computer Graphics</name>
+            <code>COMP4560</code>
+            <instructor>Brenda Fine</instructor>
+            <time>12:30 - 1:20</time>
+            <location>SW3-1750</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Client Server 2</name>
+            <code>COMP4941</code>
+            <instructor>Tejinder Randhawa</instructor>
+            <time>1:30 - 5:20</time>
+            <location>SE12-319</location>
+            <type>Lab</type>
+        </class>
+    </day>
+</days>
+
