@@ -5,8 +5,8 @@
 
 
 <!--Instructors-->
-<!ELEMENT instructors (instructor*)>
-<!ELEMENT instructor (class*)>
+<!ELEMENT instructors type (Tejinder Randhawa|James Parry|Catherine Ryan|Mathew Linder|Mirela Gutica|Brenda Fine) #REQUIRED>
+<!ELEMENT instructor (#PCDATA)>
 
 <!--Periods-->
 <!ELEMENT periods (period*)>
