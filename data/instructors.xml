@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Set 4G schedule by instructor
+-->
+<instructors>
+    <insctructor code="Brenda Fine">
+        <class>
+            <name>Computer Graphics</name>
+            <code>COMP4560</code>
+            <day>Monday</day>
+            <time>8:30 - 10:20</time>
+            <location>SE12-320</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Computer Graphics</name>
+            <code>COMP4560</code>
+            <day>Tuesday</day>
+            <time>11:30 - 12:20</time>
+            <location>SW5-1850</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Computer Graphics</name>
+            <code>COMP4560</code>
+            <day>Friday</day>
+            <time>12:30 - 1:20</time>
+            <location>SW3-1750</location>
+            <type>Lecture</type>
+        </class>
+    </insctructor>
+
+    <insctructor code="Mirela Gutica">
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <day>Monday</day>
+            <time>11:30 - 12:20</time>
+            <location>SW1-1205</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <day>Wednesday</day>
+            <time>1:30 - 2:20</time>
+            <location>SW1-1205</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <day>Thursday</day>
+            <time>11:30 - 12:20</time>
+            <location>SW3-1710</location>
+            <type>Lecture</type>
+        </class>
+    </insctructor>
+
+    <insctructor code="Mathew Linder">
+    <class>
+        <name>Operating Systems</name>
+        <code>COMP4735</code>
+        <day>Monday</day>
+        <time>3:30 - 5:20</time>
+        <location>SW3-1710</location>
+        <type>Lab</type>
+    </class>
+    </insctructor>
+
+    <insctructor code="James Parry">
+        <class>
+            <name>Software Development</name>
+            <code>COMP4711</code>
+            <day>Tuesday</day>
+            <time>12:30 - 2:20</time>
+            <location>SE12-320</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Software Development</name>
+            <code>COMP4711</code>
+            <day>Tuesday</day>
+            <time>12:30 - 2:20</time>
+            <location>SW5-1840</location>
+            <type>Lecture</type>
+        </class>
+    </insctructor>
+
+    <insctructor code="Tejinder Randhawa">
+        <class>
+            <name>Client Server Special Topics</name>
+            <code>COMP4945</code>
+            <day>Wednesday</day>
+            <time>9:30 - 10:20</time>
+            <location>SE12-319</location>
+            <type>Lecture</type>
+        </class>
+        <class>
+            <name>Client Server 2</name>
+            <code>COMP4941</code>
+            <day>Wednesday</day>
+            <time>10:30 - 11:20</time>
+            <location>SE12-319</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Client Server Special Topics</name>
+            <code>COMP4945</code>
+            <day>Thursday</day>
+            <time>1:30 - 5:20</time>
+            <location>SE12-319</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Client Server 2</name>
+            <code>COMP4941</code>
+            <day>Friday</day>
+            <time>1:30 - 5:20</time>
+            <location>SE12-319</location>
+            <type>Lab</type>
+        </class>
+    </insctructor>
+
+    <insctructor code="Catherine Ryan">
+        <class>
+            <name>Business Law</name>
+            <code>BLAW3600</code>
+            <day>Thursday</day>
+            <time>9:30 - 11:20</time>
+            <location>SW3-2620</location>
+            <type>Lab</type>
+        </class>
+        <class>
+            <name>Business Law</name>
+            <code>BLAW3600</code>
+            <day>Friday</day>
+            <time>8:30 - 10:20</time>
+            <location>SW5-1840</location>
+            <type>Lecture</type>
+        </class>
+    </insctructor>
+</instructors>
