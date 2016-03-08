@@ -4,7 +4,7 @@
     <!ENTITY periods        SYSTEM "periods.xml">
     <!ENTITY instructors    SYSTEM "instructors.xml">
 ]>
-<booking set="4G" option="Client Server" term="Winter 2016">
+<booking>
     &days;
     &periods;
     &instructors;

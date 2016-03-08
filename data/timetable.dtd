@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--Timetable-->
+<!ELEMENT booking (instructors, days)>
+
 
 <!--Instructors-->
-<!ELEMENT instructors (instructor *)>
-<!ELEMENT instructor (class *)>
-<!ATTLIST instructor code #REQUIRED>
+<!ELEMENT instructors (instructor*)>
+<!ELEMENT instructor (class*)>
 
 <!--Periods-->
-<!ELEMENT periods (period *)>
-<!ELEMENT period (class *)>
+<!ELEMENT periods (period*)>
+<!ELEMENT period (class*)>
 <!ATTLIST period type (830|930|1030|1130|1230|1330|1430|1530) #REQUIRED>
 
 <!--Days-->
-<!ELEMENT days (day *)>
-<!ELEMENT day (class *)>
+<!ELEMENT days (day*)>
+<!ELEMENT day (class*)>
 <!ATTLIST day type (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED>
 
 <!--Class-->
-<!ELEMENT class (name|code|day|time|location|type)*>
 <!ELEMENT class (
         name?,
         code?,
@@ -28,13 +28,11 @@
         type?,
         instructor?
         )>
-<!ELEMENT instructor (#PCDATA)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT code (#PCDATA)>
-<!ELEMENT day (#PCDATA)>
 <!ELEMENT time (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
-<!ELEMENT type type (Lab|Lecture)>
+<!ELEMENT type (Lab|Lecture)>
 
 
 
