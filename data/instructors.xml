@@ -4,7 +4,7 @@
 Set 4G schedule by instructor
 -->
 <instructors>
-    <instructor type="Brenda Fine">
+    <instructor type="Brenda-Fine">
         <class>
             <name>Computer Graphics</name>
             <code>COMP4560</code>
@@ -31,7 +31,7 @@ Set 4G schedule by instructor
         </class>
     </instructor>
 
-    <instructor type="Mirela Gutica">
+    <instructor type="Mirela-Gutica">
         <class>
             <name>Operating Systems</name>
             <code>COMP4735</code>
@@ -58,7 +58,7 @@ Set 4G schedule by instructor
         </class>
     </instructor>
 
-    <instructor type="Mathew Linder">
+    <instructor type="Mathew-Linder">
     <class>
         <name>Operating Systems</name>
         <code>COMP4735</code>
@@ -69,7 +69,7 @@ Set 4G schedule by instructor
     </class>
     </instructor>
 
-    <instructor type="James Parry">
+    <instructor type="James-Parry">
         <class>
             <name>Software Development</name>
             <code>COMP4711</code>
@@ -88,7 +88,7 @@ Set 4G schedule by instructor
         </class>
     </instructor>
 
-    <instructor type="Tejinder Randhawa">
+    <instructor type="Tejinder-Randhawa">
         <class>
             <name>Client Server Special Topics</name>
             <code>COMP4945</code>
@@ -123,7 +123,7 @@ Set 4G schedule by instructor
         </class>
     </instructor>
 
-    <instructor type="Catherine Ryan">
+    <instructor type="Catherine-Ryan">
         <class>
             <name>Business Law</name>
             <code>BLAW3600</code>
