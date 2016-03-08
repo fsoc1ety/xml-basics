@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE periods SYSTEM "timetable.dtd">
+<periods>
+    <period type="830">
+        <class>
+            <name>Computer Graphics</name>
+            <code>COMP4560</code>
+            <instructor>Brenda Fine</instructor>
+            <date>Monday</date>
+            <location>SE12-320</location>
+        </class>
+        
+        <class>
+            <name>Business Law</name>
+            <code>BLAW3600</code>
+            <instructor>Catherine Ryan</instructor>
+            <date>Friday</date>
+            <location>SW5-1849</location>
+        </class>
+    </period>
+
+    <period type="930">
+        <class>
+            <instructor>Tejinder Randhawa</instructor>
+            <location>SE12 319</location>
+            <classtype>Lecture</classtype>
+            <dayofweek>Wednesday</dayofweek>
+            <class>COMP 4945</class>
+        </class>
+        
+        <class>
+            <instructor>Catherine Ryan</instructor>
+            <location>SW3 2620</location>
+            <classtype>Lab</classtype>
+            <dayofweek>Thursday</dayofweek>
+            <class>BLAW 3600</class>
+        </class>
+    </period>
+
+    <period type="1030">
+        <class>
+            <instructor>Tejinder Randhawa</instructor>
+            <location>SE12 319</location>
+            <classtype>Lab</classtype>
+            <dayofweek>Wednesday</dayofweek>
+            <class>COMP 4941</class>
+        </class>
+    </period>
+
+    <period type="1130">
+        <class>
+            <name>Operating Systems</name>
+            <code>COMP4735</code>
+            <instructor>Mirela Gutica</instructor>
+            <date>Monday</date>
+            <location>SW1-1205</location>
+        </class>
+
+        <class>
+            <instructor>Brenda Fine</instructor>
+            <location>SW5 1850</location>
+            <classtype>Lecture</classtype>
+            <dayofweek>Tuesday</dayofweek>
+            <class>COMP 4560</class>
+        </class>
+
+        <class>
+            <instructor>Mirela Gutica</instructor>
+            <location>SW3 1710</location>
+            <classtype>Lecture</classtype>
+            <dayofweek>Thursday</dayofweek>
+            <class>COMP 4735</class>
+        </class>
+    </period>
+
+    <period type="1230">
+        <class>
+            <instructor>James Parry</instructor>
+            <location>SE12 320</location>
+            <classtype>Lab</classtype>
+            <dayofweek>Tuesday</dayofweek>
+            <class>COMP 4711</class>
+        </class>
+
+        <class>
+            <instructor>Brenda Fine</instructor>
+            <location>SE3 1750</location>
+            <classtype>Lecture</classtype>
+            <dayofweek>Friday</dayofweek>
+            <class>COMP 4560</class>
+        </class>
+    </period>
+
+    <period type="1330">
+        <class>
+            <instructor>Mirela Gutica</instructor>
+            <location>SW1 1205</location>
+            <classtype>Lecture</classtype>
+            <dayofweek>Wednesday</dayofweek>
+            <class>COMP 4735</class>
+        </class>
+    </period>
+
+    <period type="1430">
+        <class>
+            <instructor>James Parry</instructor>
+            <location>SW5 1840</location>
+            <classtype>Lecture</classtype>
+            <dayofweek>Tuesday</dayofweek>
+            <class>COMP 4711</class>
+        </class>
+
+        <class>
+            <instructor>D'Arcy Smith</instructor>
+            <location>SE12 325</location>
+            <classtype>Seminar</classtype>
+            <dayofweek>Friday</dayofweek>
+            <class>COMP 4977</class>
+        </class>
+    </period>
+
+    <period type="1530">
+        <class>
+            <instructor>Mathew Linder</instructor>
+            <location>SE12 322</location>
+            <classtype>Lab</classtype>
+            <dayofweek>Monday</dayofweek>
+            <class>COMP 4711</class>
+        </class>
+    </period>
+    
+        <class>
+            <instructor>Joseph Lo</instructor>
+            <location>SE12 322</location>
+            <classtype>Lab</classtype>
+            <dayofweek>Tuesday</dayofweek>
+            <class>COMP 4560</class>
+        </class>
+
+        <class>
+            <instructor>D'Arcy Smith</instructor>
+            <location>SE12 325</location>
+            <classtype>Seminar</classtype>
+            <dayofweek>Friday</dayofweek>
+            <class>COMP 4977</class>
+        </class>
+        
+
+</periods>

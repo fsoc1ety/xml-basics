@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/schedule.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE timetable SYSTEM "schedule.dtd">
+
+    <timetable>
+    ...
+    </timetable>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT timetable (set|class|lab)*>
+<!ATTLIST timetable
+    type CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT set (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT class (name|code|instructor|date|time|location)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT code (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT instructor (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT date (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT time (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT location (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT lab (name|code|instructor|date|time|location)*>
