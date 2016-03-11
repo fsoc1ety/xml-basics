@@ -1,41 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--Timetable-->
-<!ELEMENT booking (instructors, days)>
+<!ELEMENT timetable (
+        term, 
+        set, 
+        periods, 
+        instructors,
+        daysofweek
+        )>
 
+<!ELEMENT term (#PCDATA)>
+<!ELEMENT set (#PCDATA)>
 
-<!--Instructors-->
+<!ELEMENT periods (block*)>
+<!ELEMENT block (class*)>
+<!ATTLIST block time CDATA #REQUIRED>
+
 <!ELEMENT instructors (instructor*)>
 <!ELEMENT instructor (class*)>
-<!ATTLIST instructor type (Tejinder-Randhawa|James-Parry|Catherine-Ryan|Mathew-Linder|Mirela-Gutica|Brenda-Fine) #REQUIRED>
+<!ATTLIST instructor name CDATA #REQUIRED>
 
-
-<!--Periods-->
-<!ELEMENT periods (period*)>
-<!ELEMENT period (class*)>
-<!ATTLIST period type (830|930|1030|1130|1230|1330|1430|1530) #REQUIRED>
-
-<!--Days-->
-<!ELEMENT days (day*)>
+<!ELEMENT daysofweek (day*)>
 <!ELEMENT day (class*)>
-<!ATTLIST day type (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED>
+<!ATTLIST day name CDATA #REQUIRED>
 
-<!--Class-->
-<!ELEMENT class (
+<!ELEMENT class (  
         name,
         code,
-        instructor1?,
-        day1?,
-        time?,
+        dayofclass?,
+        classinstructor?,
         location,
         type
         )>
+
+<!ATTLIST class 
+        day CDATA #IMPLIED 
+        time CDATA #IMPLIED
+        >
+        
+
+<!ELEMENT dayofclass (#PCDATA)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT code (#PCDATA)>
-<!ELEMENT day1 (#PCDATA)>
-<!ELEMENT time (#PCDATA)>
+<!ELEMENT classinstructor (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT type (#PCDATA)>
-<!ELEMENT instructor1 (#PCDATA)>
-
-
