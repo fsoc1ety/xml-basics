@@ -4,7 +4,7 @@
     <term>Winter-2016</term>
     <set>4G</set>
     <periods>
-        <block time="8:30-10:20">
+        <block time="8:30">
             <class day="Monday">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
@@ -20,7 +20,7 @@
                 <type>Lecture</type>
             </class>
         </block>
-        <block time="9:30-10:20">
+        <block time="9:30">
             <class day="Wednesday">
                 <name>Client Server Special Topics</name>
                 <code>COMP4945</code>
@@ -28,8 +28,6 @@
                 <location>SE12-319</location>
                 <type>Lecture</type>
             </class>
-        </block>
-        <block time="9:30-11:20">
             <class day="Thursday">
                 <name>Business Law</name>
                 <code>BLAW3600</code>
@@ -38,7 +36,7 @@
                 <type>Lab</type>
             </class>
         </block>
-        <block time="10:30-11:20">
+        <block time="10:30">
             <class day="Wednesday">
                 <name>Client Server 2</name>
                 <code>COMP4941</code>
@@ -47,7 +45,7 @@
                 <type>Lab</type>
             </class>
         </block>
-        <block time="11:30-12:20">
+        <block time="11:30">
             <class day="Monday">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
@@ -70,7 +68,7 @@
                 <type>Lecture</type>
             </class>
         </block>
-        <block time="12:30-1:20">
+        <block time="12:30">
             <class day="Friday">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
@@ -78,8 +76,6 @@
                 <location>SW3-1750</location>
                 <type>Lecture</type>
             </class>  
-        </block>
-        <block time="12:30-2:20">
             <class day="Tuesday">
                 <name>Software Development</name>
                 <code>COMP4711</code>
@@ -88,7 +84,7 @@
                 <type>Lab</type>
             </class>
         </block>
-        <block time="1:30-2:20">
+        <block time="1:30">
             <class day="Wednesday">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
@@ -96,8 +92,6 @@
                 <location>SW1-1205</location>
                 <type>Lecture</type>
             </class>            
-        </block>
-        <block time="1:30-5:20">
             <class day="Thursday">
                 <name>Client Server Special Topics</name>
                 <code>COMP4945</code>
@@ -110,10 +104,10 @@
                 <code>COMP4941</code>
                 <classinstructor>Tejinder Randhawa</classinstructor>
                 <location>SE12-319</location>
-                <type>Lab</type>
+                <type>Lecture</type>
             </class>           
         </block>
-        <block time="2:30-3:20">
+        <block time="2:30">
             <class day="Tuesday">
                 <name>Software Development</name>
                 <code>COMP4711</code>
@@ -122,7 +116,7 @@
                 <type>Lecture</type>
             </class>
         </block>
-        <block time="3:30-5:20">
+        <block time="3:30">
             <class day="Monday">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
@@ -135,21 +129,21 @@
     
     <instructors>
         <instructor name="Brenda Fine">
-            <class time="8:30-10:20">
+            <class time="8:30">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
                 <dayofclass>Monday</dayofclass>
                 <location>SE12-320</location>
                 <type>Lab</type>
             </class>
-            <class time="11:30-12:20">
+            <class time="11:30">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
                 <dayofclass>Tuesday</dayofclass>
                 <location>SW5-1850</location>
                 <type>Lecture</type>
             </class>
-            <class time="12:30-1:20">
+            <class time="12:30">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
                 <dayofclass>Friday</dayofclass>
@@ -158,21 +152,21 @@
             </class>
         </instructor>
         <instructor name="Mirela Gutica">
-            <class time="11:30-12:20">
+            <class time="11:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <dayofclass>Monday</dayofclass>
                 <location>SW1-1205</location>
                 <type>Lecture</type>
             </class>
-            <class time="1:30-2:20">
+            <class time="1:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <dayofclass>Wednesday</dayofclass>
                 <location>SW1-1205</location>
                 <type>Lecture</type>
             </class>
-            <class time="11:30-12:20">
+            <class time="11:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <dayofclass>Thursday</dayofclass>
@@ -181,7 +175,7 @@
             </class>    
         </instructor>
         <instructor name="Mathew Linder">
-            <class time="3:30-5:20">
+            <class time="3:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <dayofclass>Monday</dayofclass>
@@ -190,44 +184,44 @@
             </class>    
         </instructor>
         <instructor name="Tejinder Randhawa">
-            <class time="9:30-10:20">
+            <class time="9:30">
                 <name>Client Server Special Topics</name>
                 <code>COMP4945</code>
                 <dayofclass>Wednesday</dayofclass>
                 <location>SE12-319</location>
                 <type>Lecture</type>
             </class>
-            <class time="10:30-11:20">
+            <class time="10:30">
                 <name>Client Server 2</name>
                 <code>COMP4941</code>
                 <dayofclass>Wednesday</dayofclass>
                 <location>SE12-319</location>
                 <type>Lab</type>
             </class>
-            <class time="1:30-5:20">
+            <class time="1:30">
                 <name>Client Server Special Topics</name>
                 <code>COMP4945</code>
                 <dayofclass>Thursday</dayofclass>
                 <location>SE12-319</location>
                 <type>Lab</type>
             </class>
-            <class time="1:30-5:20">
+            <class time="1:30">
                 <name>Client Server 2</name>
                 <code>COMP4941</code>
                 <dayofclass>Friday</dayofclass>
                 <location>SE12-319</location>
-                <type>Lab</type>
+                <type>Lecture</type>
             </class>      
         </instructor>
         <instructor name="Jim Parry">
-            <class time="12:30-2:20">
+            <class time="12:30">
                 <name>Software Development</name>
                 <code>COMP4711</code>
                 <dayofclass>Tuesday</dayofclass>
                 <location>SE12-320</location>
                 <type>Lab</type>
             </class> 
-            <class time="12:30-2:20">
+            <class time="12:30">
                 <name>Software Development</name>
                 <code>COMP4711</code>
                 <dayofclass>Tuesday</dayofclass>
@@ -236,14 +230,14 @@
             </class> 
         </instructor>
         <instructor name="Catherine Ryan">
-            <class time="9:30-11:20">
+            <class time="9:30">
                 <name>Business Law</name>
                 <code>BLAW3600</code>
                 <dayofclass>Thursday</dayofclass>
                 <location>SW3-2620</location>
                 <type>Lab</type>
             </class>
-            <class time="8:30-10:20">
+            <class time="8:30">
                 <name>Business Law</name>
                 <code>BLAW3600</code>
                 <dayofclass>Friday</dayofclass>
@@ -255,21 +249,21 @@
     
     <daysofweek>
         <day name="Monday">
-            <class time="8:30-10:20">
+            <class time="8:30">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
                 <classinstructor>Brenda Fine</classinstructor>
                 <location>SE12-320</location>
                 <type>Lab</type>
             </class>
-            <class time="11:30-12:20">
+            <class time="11:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <classinstructor>Mirela Gutica</classinstructor>
                 <location>SW1-1205</location>
                 <type>Lecture</type>
             </class>
-            <class time="3:30-5:20">
+            <class time="3:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <classinstructor>Mathew Linder</classinstructor>
@@ -278,21 +272,21 @@
             </class>
         </day>
         <day name="Tuesday">
-            <class time="11:30-12:20">
+            <class time="11:30">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
                 <classinstructor>Brenda Fine</classinstructor>
                 <location>SW5-1850</location>
                 <type>Lecture</type>
             </class>
-            <class time="12:30-2:20">
+            <class time="12:30">
                 <name>Software Development</name>
                 <code>COMP4711</code>
                 <classinstructor>Jim Parry</classinstructor>
                 <location>SE12-320</location>
                 <type>Lab</type>
             </class>
-            <class time="12:30-2:20">
+            <class time="12:30">
                 <name>Software Development</name>
                 <code>COMP4711</code>
                 <classinstructor>Jim Parry</classinstructor>
@@ -301,21 +295,21 @@
             </class> 
         </day>
         <day name="Wednesday">
-            <class time="9:30-10:20">
+            <class time="9:30">
                 <name>Client Server Special Topics</name>
                 <code>COMP4945</code>
                 <classinstructor>Tejinder Randhawa</classinstructor>
                 <location>SE12-319</location>
                 <type>Lecture</type>
             </class>
-            <class time="10:30-11:20">
+            <class time="10:30">
                 <name>Client Server 2</name>
                 <code>COMP4941</code>
                 <classinstructor>Tejinder Randhawa</classinstructor>
                 <location>SE12-319</location>
                 <type>Lab</type>
             </class>
-            <class time="1:30-2:20">
+            <class time="1:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <classinstructor>Mirela Gutica</classinstructor>
@@ -324,21 +318,21 @@
             </class>    
         </day>
         <day name="Thursday">
-            <class time="9:30-11:20">
+            <class time="9:30">
                 <name>Business Law</name>
                 <code>BLAW3600</code>
                 <classinstructor>Catherine Ryan</classinstructor>
                 <location>SW3-2620</location>
                 <type>Lab</type>
             </class>
-            <class time="11:30-12:20">
+            <class time="11:30">
                 <name>Operating Systems</name>
                 <code>COMP4735</code>
                 <classinstructor>Mirela Gutica</classinstructor>
                 <location>SW3-1710</location>
                 <type>Lecture</type>
             </class>
-            <class time="1:30-5:20">
+            <class time="1:30">
                 <name>Client Server Special Topics</name>
                 <code>COMP4945</code>
                 <classinstructor>Tejinder Randhawa</classinstructor>
@@ -347,21 +341,21 @@
             </class>    
         </day>
         <day name="Friday">
-            <class time="8:30-10:20">
+            <class time="8:30">
                 <name>Business Law</name>
                 <code>BLAW3600</code>
                 <classinstructor>Catherine Ryan</classinstructor>
                 <location>SW5-1840</location>
                 <type>Lecture</type>
             </class>
-            <class time="12:30-1:20">
+            <class time="12:30">
                 <name>Computer Graphics</name>
                 <code>COMP4560</code>
                 <classinstructor>Brenda Fine</classinstructor>
                 <location>SW3-1750</location>
                 <type>Lecture</type>
             </class>
-            <class time="1:30-5:20">
+            <class time="1:30">
                 <name>Client Server 2</name>
                 <code>COMP4941</code>
                 <classinstructor>Tejinder Randhawa</classinstructor>
