@@ -1,42 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--Timetable-->
-<!ELEMENT booking (instructors, days)>
+<!-- A timetable will have the term, set, periods, instructors, and daysofweek -->
+<!ELEMENT timetable (
+        term, 
+        set, 
+        periods, 
+        instructors,
+        daysofweek
+        )>
 
+<!-- A term is determined by the timetable -->
+<!ELEMENT term (#PCDATA)>
+<!-- A set is determined by the timetable -->
+<!ELEMENT set (#PCDATA)>
 
-<!--Instructors-->
+<!-- A period consists of blocks -->
+<!ELEMENT periods (block*)>
+<!-- A block consists of classes -->
+<!ELEMENT block (class*)>
+<!-- A block time requires field named time to be filled -->
+<!ATTLIST block time CDATA #REQUIRED>
+
+<!-- A instructors consists of instructor -->
 <!ELEMENT instructors (instructor*)>
+<!-- A instructor consists of classes -->
 <!ELEMENT instructor (class*)>
-<!ATTLIST instructor type (Tejinder-Randhawa|James-Parry|Catherine-Ryan|Mathew-Linder|Mirela-Gutica|Brenda-Fine) #REQUIRED>
+<!-- A instructor name requires field named name to be filled -->
+<!ATTLIST instructor name CDATA #REQUIRED>
 
-
-<!--Periods-->
-<!ELEMENT periods (period*)>
-<!ELEMENT period (class*)>
-<!ATTLIST period type (830|930|1030|1130|1230|1330|1430|1530) #REQUIRED>
-
-<!--Days-->
-<!ELEMENT days (day*)>
+<!-- A daysofweek consists of day -->
+<!ELEMENT daysofweek (day*)>
+<!-- A day consists of classes -->
 <!ELEMENT day (class*)>
-<!ATTLIST day type (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED>
+<!-- A day name requires field named name to be filled -->
+<!ATTLIST day name CDATA #REQUIRED>
 
-<!--Class-->
-<!ELEMENT class (
+<!-- A class will have the name, code, location, and have either dayofclass and classinstructor -->
+<!ELEMENT class (  
         name,
         code,
-        day1?,
-        time?,
+        dayofclass?,
+        classinstructor?,
         location,
-        type,
-        instructor1?
+        type
         )>
+
+<!-- A class will have its day and time implied -->
+<!ATTLIST class 
+        day CDATA #IMPLIED 
+        time CDATA #IMPLIED
+        >
+        
+<!-- A dayofclass will have its value determined by a string -->
+<!ELEMENT dayofclass (#PCDATA)>
+<!-- A name will have its value determined by a string -->
 <!ELEMENT name (#PCDATA)>
+<!-- A code will have its value determined by a string -->
 <!ELEMENT code (#PCDATA)>
-<!ELEMENT day1 (#PCDATA)>
-<!ELEMENT time (#PCDATA)>
+<!-- A classinstructor will have its value determined by a string -->
+<!ELEMENT classinstructor (#PCDATA)>
+<!-- A location will have its value determined by a string -->
 <!ELEMENT location (#PCDATA)>
+<!-- A type will have its value determined by a string -->
 <!ELEMENT type (#PCDATA)>
-<!ELEMENT instructor1 (#PCDATA)>
-
-
-
