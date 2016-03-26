@@ -18,8 +18,19 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+    
+        public function __construct() {
+                parent::__construct();
+                $this->load->model('timetable');
+            
+        }     
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->data['blocks'] = $this->timetable->getBlocks();
+                $this->data['instructors'] = $this->timetable->getInstructors();
+                $this->data['daysofweek'] = $this->timetable->getDaysOfWeek();
+                
 	}
+        
+       
 }
