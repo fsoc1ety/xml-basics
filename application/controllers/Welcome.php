@@ -30,6 +30,7 @@ class Welcome extends CI_Controller {
                 $this->data['instructors'] = $this->timetable->getInstructors();
                 $this->data['daysofweek'] = $this->timetable->getDaysOfWeek();
                 
+                
 	}
         
        
