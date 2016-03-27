@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Welcome extends Application {
 
 	/**
 	 * Index Page for this controller.
@@ -29,7 +29,7 @@ class Welcome extends CI_Controller {
 		$this->data['blocks'] = $this->timetable->getBlocks();
                 $this->data['instructors'] = $this->timetable->getInstructors();
                 $this->data['daysofweek'] = $this->timetable->getDaysOfWeek();
-                
+                $this->render();
                 
 	}
         
