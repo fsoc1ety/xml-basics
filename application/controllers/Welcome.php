@@ -21,15 +21,15 @@ class Welcome extends Application {
     
         public function __construct() {
                 parent::__construct();
-                $this->load->model('timetable');
-            
         }     
 	public function index()
 	{
 		$this->data['blocks'] = $this->timetable->getBlocks();
-                $this->data['instructors'] = $this->timetable->getInstructors();
-                $this->data['daysofweek'] = $this->timetable->getDaysOfWeek();
-                $this->render();
+        $this->data['instructors'] = $this->timetable->getInstructors();
+        $this->data['daysofweek'] = $this->timetable->getDaysOfWeek();
+
+        $this->data['pagebody'] = 'full_booking';
+        $this->render();
                 
 	}
         
