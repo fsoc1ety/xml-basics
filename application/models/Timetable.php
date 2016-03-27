@@ -147,8 +147,6 @@ class Timetable extends CI_Model {
 
         return $result;
     }
-
-    
 }
 
 class Booking extends CI_Model {
